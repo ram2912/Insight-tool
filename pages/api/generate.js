@@ -64,7 +64,7 @@ const WCVR = req.body.WCVR || '';
 
 function generatePrompt(animal, benchmark,LCVR,LCVRbenchmark,WCVR) {
   const capitalizedAnimal = animal;
-  return `Give three one-line best-practices supported by industry specific benchmarks for the sales reps under 300 words to improve sales performance of the following B2B company.
+  return `Give three one-line best-practice supported by industry specific benchmarks for the sales reps under 300 words to improve sales performance of the following B2B company.
 
 
 Company profile:
@@ -76,9 +76,9 @@ Opportunity to win conversion rate: ${WCVR} %
 
 Use the format:
 
-Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. If lower, best practice in one line to close the gap.
-Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. If lower, best practice in one line to close the gap.
-Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. If lower, best practice in one line to close the gap.
+Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. If lower, best practice: to close the gap.
+Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. If lower, best practice: to close the gap.
+Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. If lower, best practice: to close the gap.
 `;
 }
 
