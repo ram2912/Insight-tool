@@ -76,9 +76,9 @@ Opportunity to win conversion rate: ${WCVR} %
 
 Use the format:
 
-Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. If lower, best practice: 
-Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. If lower, best practice:
-Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. If lower, best practice: 
+Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. Best practice: 
+Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. Best practice:
+Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. Best practice: 
 `;
 }
 
