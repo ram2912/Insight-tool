@@ -76,9 +76,9 @@ Opportunity to win conversion rate: ${WCVR} %
 
 Use the format:
 
-Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. If lower, suggest best practice in one line to close the gap.
-Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. If lower, suggest best practice in one line to close the gap.
-Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. If lower, suggest best practice in one line to close the gap.
+Current number of ACV is $ ${LCVR} which is higher/lower than industry benchmark of Y. If lower, best practice in one line to close the gap.
+Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lower than industry benchmark of Z. If lower, best practice in one line to close the gap.
+Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. If lower, best practice in one line to close the gap.
 `;
 }
 
