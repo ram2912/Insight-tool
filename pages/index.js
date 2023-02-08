@@ -37,6 +37,7 @@ setResult(data.result);
     } catch(error) {
       // Consider implementing your own error handling logic here
       console.error(error);
+console.log(error.message);
       alert(error.message);
     }
   }
