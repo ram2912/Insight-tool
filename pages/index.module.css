@@ -13,6 +13,12 @@ url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
 font-weight: bold;
 font-style: normal;
 }
+.container {
+  font-family: "ColfaxAI", Helvetica, sans-serif;;
+}
+.header {
+  padding: 0;
+}
 .main,
 .main input {
 font-size: 16px;
@@ -23,18 +29,19 @@ font-family: "ColfaxAI", Helvetica, sans-serif;
 .main {
 display: flex;
 flex-direction: row;
-align-items: center;
-padding-top: 60px;
+justify-content: center;
+padding-top: 140px;
 }
 .main .icon {
 width: 34px;
 }
-.main h3 {
+.main h1 {
 font-size: 32px;
 line-height: 40px;
 font-weight: bold;
 color: #202123;
 margin: 16px 0 40px;
+background-color: azure;
 }
 .main form {
 display: flex;
@@ -57,7 +64,7 @@ flex-grow: 1;
 color: #8e8ea0;
 opacity: 1;
 }
-.main input[type="submit"] {
+.submit{
 height: 32px;
 padding: 0px 16px; /* decrease height by decreasing padding */
 color: #fff;
@@ -66,6 +73,21 @@ border: none;
 border-radius: 4px;
 text-align: center;
 cursor: pointer;
+}
+
+.submit[disabled] {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+
+.popupClass {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:10px;
 }
 .main .result {
   font-weight: semi-bold;
@@ -84,3 +106,9 @@ cursor: pointer;
   top: 0;
   width: 100%;
   }
+
+.footer {
+font-size: 26px;
+line-height: 24px;
+color: #353740;
+}
