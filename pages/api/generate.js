@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 require('dotenv').config();
 
 const configuration = new Configuration({
-   apiKey: process.env.OPENAI_API_KEY,
+   apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -81,4 +81,5 @@ Current number of Sales cycle length is ${LCVRbenchmark} days which is higher/lo
 Current number of win rate is ${WCVR} % which is higher/lower than industry benchmark of W. Best practice: 
 `;
 }
+
 
