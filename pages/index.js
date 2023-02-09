@@ -144,10 +144,10 @@ setResult(data.result);
             <div className={styles.popupClass}>
             <h1> Please Enter your details to view the result.</h1>
               <form>
-                <label for="number">Phone number</label>
-               <br />
+                //<label for="number">Phone number</label>
+                <br />
                 <input
-                 type="text"
+                  type="text"
                   name="phone"
                   value={toSend.phone}
                   onChange={handleChange}
